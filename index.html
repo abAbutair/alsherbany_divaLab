@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" id="myStyle" href="css/style_rtl.css">
+    <title>Document</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">الرئيسية</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            عن المؤسسة
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">الرسالة والرؤية</a>
+                            <a class="dropdown-item" href="#">نظرة عامة وقصة الإنشاء</a>
+                            <a class="dropdown-item" href="#">عن رئيس مجلس الادارة</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            أنشطة المؤسسة
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            تبرع الآن
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown-3">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">اتصل بنا</a>
+                    </li>
+                </ul>
+                <form class="form form--search">
+                    <input class="input input--search" type="text" placeholder="ابحث" aria-label="Search">
+                    <button class="btn btn--search btn--scd-clr" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="section">
+        <div class="slider slider--main">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-image: url('media/slide-0.jpg')">
+                        <div class="carousel-caption d-none d-md-flex">
+                            <h5 class="heading-primary">القليل تعني الكثير </h5>
+                            <p class="limited-lines burgundy-text">
+                                بودكاستينغ إدارة التغيير التشغيلي داخل سير العمل لإنشاء إطار عمل. أخذ مؤشرات الأداء الرئيسية السلسة دون اتصال لتحقيق أقصى قدر من الذيل الطويل. أبقِ عينيك على
+                                <a href="#" class="read-more main-clr-text">...المزيد.</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('media/slide-1.jpg')">
+                        <div class="carousel-caption d-none d-md-flex">
+                            <h5 class="heading-primary">لوريم ايبسوم</h5>
+                            <p class="limited-lines burgundy-text">
+                                لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت .
+                                <a href="#" class="read-more main-clr-text">...المزيد.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                </ol>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="section section--padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="hand-block hand-block--who-are-we">
+                        <div class="hand-block__positioned">
+                            <h5 class="heading-secondary heading-secondary--second-clr">
+                                من نحن
+                            </h5>
+                            <article>
+                                <p>مؤشرات الأداء الرئيسية السلسة دون اتصال لتحقيق أقصى قدر من الذيل الطويل. أبقِ ينيك علىبودكاستينغ إدارة التغيير التشغيلي داخل سير العمل لإنشاء إطار عمل. أخذ مؤشرات الأداء الرئيسية السلسة دون اتصال لتحقيق أقصى قدر من الذيل الطويل. أبقِ  علىى</p>
+                                <p>بودكاستينغ إدارة التغيير التشغيلي داخل سير العمل لإنشاء إطار عمل. أخذ مؤشرات الأداء الرئيسية السلسة دون اتصال لتحقيق أقصى قدر من الذيل الطويل. أبقِ  عل</p>
+                            </article>
+                            <div class="who-are-we">
+                                <img src="media/boy.jpg" alt="">
+                            </div>
+                            <button class="btn btn--scd-clr" type="submit">قراءة المزيد</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="circle-block circle-block--care-hands">
+                        <div class="circle-block__positioned">
+                            <img src="images/care-hands.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section--padding hand">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="circle-block">
+                        <div class="circle-block__positioned">
+                            <div class="u-center-text">
+                                <h5 class="heading-secondary">
+                                    أنشطة المؤسسة
+                                </h5>
+                            </div>
+                            <div class="slider slider--sub">
+                                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" style="background-image: url('media/slide-2.jpg')"></div>
+                                        <div class="carousel-item" style="background-image: url('media/slide-0.jpg')"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hand-block">
+                        <div class="hand-block__positioned">
+                            <h5 class="heading-primary">
+                                1 - وحدات علاج الكيماوي
+                            </h5>
+                            <article>
+                                <p>مؤشرات الأداء الرئيسية السلسة دون اتصال لتحقيق أقصى قدر من الذيل الطويل. أبقِ ينيك علىبودكاستينغ إدارة التغيير التشغيلي داخل سير العمل لإنشاء إطار عمل. أخذ مؤشرات الأداء الرئيسية السلسة دون اتصال لتحقيق أقصى قدر من الذيل الطويل. أبقِ  على
+                                    بودكاستينغ إدارة التغيير التشغيلي داخل سير العمل لإنشاء إطار عمل. أخذ مؤشرات الأداء الرئيسية السلسة دون اتصال لتحقيق أقصى قدر من الذيل الطويل. أبقِ  على</p>
+                            </article>
+                            <button class="btn" type="submit">قراءة المزيد</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section--padding hand hand--blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="hand-block">
+                        <div class="hand-block__positioned">
+                            <h5 class="heading-primary heading-primary--second-clr">
+                                1 - وحدات علاج الكيماوي
+                            </h5>
+                            <article>
+                                <p>مؤشرات الأداء الرئيسية السلسة دون اتصال لتحقيق أقصى قدر من الذيل الطويل. أبقِ ينيك علىبودكاستينغ إدارة التغيير التشغيلي داخل سير العمل لإنشاء إطار عمل. أخذ مؤشرات الأداء الرئيسية السلسة دون اتصال لتحقيق أقصى قدر من الذيل الطويل. أبقِ  على
+                                    بودكاستينغ إدارة التغيير التشغيلي داخل سير العمل لإنشاء إطار عمل. أخذ مؤشرات الأداء الرئيسية السلسة دون اتصال لتحقيق أقصى قدر من الذيل الطويل. أبقِ  على</p>
+                            </article>
+                            <button class="btn btn--scd-clr" type="submit">قراءة المزيد</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="circle-block">
+                        <div class="circle-block__positioned circle-block__positioned--video">
+                            <a data-fancybox href="https://youtu.be/uLOIzsXfYTs" class="fancy-video" style="background-image: url('media/slide-1.jpg')">
+                                <span>
+                                    <i class="fas fa-video"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section--padding hand hand--blue hand--blue--flipped">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="circle-block">
+                        <div class="circle-block__positioned">
+                            <div class="u-center-text">
+                                <h5 class="heading-secondary">
+                                    القائمة البريدية
+                                </h5>
+                            </div>
+                            <form class="form">
+                                <input class=" input forms-mrg-btm" type="text" placeholder="الأسم" aria-label="text">
+                                <input class=" input forms-mrg-btm" type="text" placeholder="الأسم" aria-label="text">
+                                <div class="u-center-text">
+                                    <button class="btn" type="submit">قراءة المزيد</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hand-block">
+                        <div class="hand-block__positioned">
+                            <h5 class="heading-secondary heading-secondary--second-clr">
+                                تواصل معنا
+                            </h5>
+                            <ul class="contacts">
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <a href="#location">ابراج سيتيستارز، برج ٨ ، الدور ٥، شقة ١٢، جيزة، مصر</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                    <a href="tel:">٠١٠٠١٥٤٥٦٣٢٣٢</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-envelope"></i>
+                                    <a href="mailto:">info@comapny.com</a>
+                                </li>
+                            </ul>
+                            <ul class="social-media">
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="u-center-text">
+        <p class="copyright">جميع الحقوق محفوظة</p>
+    </div>
+</footer>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/popper.js/dist/popper.min.js"></script>
+<script src="node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="js/mainScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+button {
+  &.btn {
+    padding: 0 2.5rem;
+    background-color: $mainClr;
+    color: $whiteClr;
+    font-size: $bodyFontSize;
+    word-spacing: 0.3rem;
+    height: $formHeight;
+    @include border-radius($borderRadius);
+    &:hover {
+      color: $whiteClr;
+    }
+    &:focus {
+      box-shadow: none;
+    }
+    &--scd-clr {
+      background-color: $secondClr;
+    }
+  }
+}
+
+
+
+
+

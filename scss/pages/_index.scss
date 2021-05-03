@@ -1,0 +1,47 @@
+.hand-block {
+  @extend %flex-flow;
+  height: 100%;
+  &--who-are-we {
+    position: absolute;
+    width: 140%;
+    right: -40%;
+    padding: 0 1.5rem;
+    z-index: 1;
+  }
+}
+.hand {
+  position: relative;
+  &:before {
+    content: " ";
+    background-image: url("../images/hand-o.png");
+    background-size: inherit;
+    background-position: 170% -25%;
+    background-repeat: no-repeat;
+    display: block;
+    height: 90%;
+    width: 100%;
+    position: absolute;
+  }
+  &--blue {
+    &:before {
+      background-image: url("../images/hand-b.png");
+      background-position: -75% 125%
+    }
+    &--flipped {
+      &:before {
+        background-image: url("../images/hand-b-2.png");
+        background-position: 170% -25%;
+      }
+    }
+  }
+}
+.who-are-we {
+  max-height: 300px;
+  overflow: hidden;
+  margin: 3rem 0;
+  @extend %flex-center;
+  @include border-radius(.6rem);
+  img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,35 @@
+.form {
+  &--search {
+    display: flex;
+    .input {
+      &--search {
+        height: $inputSearchHeight;
+        width: calc(100% - 5rem);
+        -webkit-border-top-#{$left}-radius: 0;
+        border-top-#{$left}-radius: 0;
+        -webkit-border-bottom-#{$left}-radius: 0;
+        border-bottom-#{$left}-radius: 0;
+        border: none;
+        background-color: $inputSearchBg;
+        &::placeholder {
+          color: $inputScdPh;
+        }
+        &:focus {
+          background-color: $inputSearchBg;
+        }
+      }
+    }
+    .btn {
+      &--search {
+        height: $inputSearchHeight;
+        width: 5rem;
+        @extend %flex-center;
+        padding: 0;
+        -webkit-border-top-#{$right}-radius: 0;
+        border-top-#{$right}-radius: 0;
+        -webkit-border-bottom-#{$right}-radius: 0;
+        border-bottom-#{$right}-radius: 0;
+      }
+    }
+  }
+}

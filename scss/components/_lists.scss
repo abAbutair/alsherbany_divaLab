@@ -1,0 +1,39 @@
+ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style-type: none;
+  }
+}
+.contacts {
+  margin-bottom: 3rem;
+  li {
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+    i {
+      margin-#{$left}: 1rem;
+      color: $secondClr;
+      font-size: $iconsFontSize;
+    }
+    a {
+      color: $bodyFontClr;
+      font-family: $medFont;
+      font-size: $medFontSize;
+    }
+  }
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  li {
+    margin-#{$left}: 2rem;
+    a {
+      color: $secondClr;
+      i{
+        font-size: 3.2rem;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,22 @@
+{
+  "name": "alsherbany",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass_ltr": "node-sass scss/main.scss css/style_ltr.css -w",
+    "compile:sass_rtl": "node-sass scss/main.scss css/style_rtl.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  }
+}
